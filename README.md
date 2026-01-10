@@ -20,7 +20,7 @@ sudo ./maple_upload ttyACM0 2 1EAF:0003 clockworkpi_uconsole_custom_20260108.ino
 
 ## Features
 
-- Restores **Shift + Trackball scrolling** instead of the default Fn-based scrolling
+- Restores **Select + Trackball scrolling** instead of the default Fn-based scrolling
 - Improved trackball responsiveness and smoothing
 - Keeps the original Arduino firmware (no QMK, no additional power drain)
 - Fully compatible with the standard uConsole keyboard flashing process
@@ -29,5 +29,4 @@ sudo ./maple_upload ttyACM0 2 1EAF:0003 clockworkpi_uconsole_custom_20260108.ino
 
 ## Background
 
-QMK-based keyboards provide excellent configurability but are known to cause increased power consumption on the uConsole.  
 This project keeps the original firmware architecture while applying small, focused improvements where they matter most.
